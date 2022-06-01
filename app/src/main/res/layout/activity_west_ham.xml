@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56376C"
+    tools:context=".WestHam">
+
+    <EditText
+        android:id="@+id/nombreClubWestham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataWestHam" />
+
+    <EditText
+        android:id="@+id/nombreEstadioWestham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="Estadio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreClubWestham" />
+
+    <EditText
+        android:id="@+id/nombreEntrenadorWestham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_marginStart="104dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Entrenador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEstadioWestham" />
+
+    <EditText
+        android:id="@+id/anyoFundacionWestham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:enabled="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fundación"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEntrenadorWestham" />
+
+    <ImageButton
+        android:id="@+id/dataWestHam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/westham" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

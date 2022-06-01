@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#290506"
+    tools:context=".AstonVilla">
+
+    <ImageButton
+        android:id="@+id/plantillaVilla"
+        android:layout_width="70dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="171dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anyoFundacionVilla"
+        app:srcCompat="@drawable/plantilla" />
+
+    <ImageButton
+        android:id="@+id/dataVilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="113dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/nombreClubVilla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/villa" />
+
+    <EditText
+        android:id="@+id/nombreClubVilla"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="94dp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="Club"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataVilla" />
+
+    <EditText
+        android:id="@+id/nombreEstadioVilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="22dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginEnd="94dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="Estadio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreClubVilla" />
+
+    <EditText
+        android:id="@+id/nombreEntrenadorVilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="94dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="Entrenador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEstadioVilla" />
+
+    <EditText
+        android:id="@+id/anyoFundacionVilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="94dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="Fundación"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreEntrenadorVilla" />
+</androidx.constraintlayout.widget.ConstraintLayout>

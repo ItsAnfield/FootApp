@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.footapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FootApp">
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Welbeck"
+            android:exported="false" />
+        <activity
+            android:name=".Lamptey"
+            android:exported="false" />
+        <activity
+            android:name=".Webster"
+            android:exported="false" />
+        <activity
+            android:name=".rSanchez"
+            android:exported="false" />
+        <activity
+            android:name=".Trossard"
+            android:exported="false" />
+        <activity
+            android:name=".Alexis"
+            android:exported="false" />
+        <activity
+            android:name=".Dunk"
+            android:exported="false" />
+        <activity
+            android:name=".Lallana"
+            android:exported="false" />
+        <activity
+            android:name=".Moder"
+            android:exported="false" />
+        <activity
+            android:name=".Haydon"
+            android:exported="false" />
+        <activity
+            android:name=".Alzate"
+            android:exported="false" />
+        <activity
+            android:name=".Mwepu"
+            android:exported="false" />
+        <activity
+            android:name=".Steele"
+            android:exported="false" />
+        <activity
+            android:name=".Duffy"
+            android:exported="false" />
+        <activity
+            android:name=".Veltman"
+            android:exported="false" />
+        <activity
+            android:name=".PlantillaBrighton"
+            android:exported="false" />
+        <activity
+            android:name=".Ings"
+            android:exported="false" />
+        <activity
+            android:name=".Digne"
+            android:exported="false" />
+        <activity
+            android:name=".Cash"
+            android:exported="false" />
+        <activity
+            android:name=".Sanson"
+            android:exported="false" />
+        <activity
+            android:name=".McGinn"
+            android:exported="false" />
+        <activity
+            android:name=".Watkins"
+            android:exported="false" />
+        <activity
+            android:name=".Young"
+            android:exported="false" />
+        <activity
+            android:name=".Chambers"
+            android:exported="false" />
+        <activity
+            android:name=".Olsen"
+            android:exported="false" />
+        <activity
+            android:name=".Chukwuemeka"
+            android:exported="false" />
+        <activity
+            android:name=".Konsa"
+            android:exported="false" />
+        <activity
+            android:name=".Mings"
+            android:exported="false" />
+        <activity
+            android:name=".Hause"
+            android:exported="false" />
+        <activity
+            android:name=".bertrandTraore"
+            android:exported="false" />
+        <activity
+            android:name=".douglasLuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Nakamba"
+            android:exported="false" />
+        <activity
+            android:name=".Bailey"
+            android:exported="false" />
+        <activity
+            android:name=".Buendia"
+            android:exported="false" />
+        <activity
+            android:name=".Coutinho"
+            android:exported="false" />
+        <activity
+            android:name=".jacobRamsey"
+            android:exported="false" />
+        <activity
+            android:name=".Emi"
+            android:exported="false" />
+        <activity
+            android:name=".PlantillaAstonVilla"
+            android:exported="false" />
+        <activity
+            android:name=".Gabriel"
+            android:exported="false" />
+        <activity
+            android:name=".Partey"
+            android:exported="false" />
+        <activity
+            android:name=".Elneny"
+            android:exported="false" />
+        <activity
+            android:name=".Rowe"
+            android:exported="false" />
+        <activity
+            android:name=".Nketiah"
+            android:exported="false" />
+        <activity
+            android:name=".Saka"
+            android:exported="false" />
+        <activity
+            android:name=".Martinelli"
+            android:exported="false" />
+        <activity
+            android:name=".Tavares"
+            android:exported="false" />
+        <activity
+            android:name=".Lokonga"
+            android:exported="false" />
+        <activity
+            android:name=".Odegaard"
+            android:exported="false" />
+        <activity
+            android:name=".Pepe"
+            android:exported="false" />
+        <activity
+            android:name=".Lacazette"
+            android:exported="false" />
+        <activity
+            android:name=".Tierney"
+            android:exported="false" />
+        <activity
+            android:name=".Xhaka"
+            android:exported="false" />
+        <activity
+            android:name=".Soares"
+            android:exported="false" />
+        <activity
+            android:name=".Holding"
+            android:exported="false" />
+        <activity
+            android:name=".Tomiyasu"
+            android:exported="false" />
+        <activity
+            android:name=".White"
+            android:exported="false" />
+        <activity
+            android:name=".Leno"
+            android:exported="false" />
+        <activity
+            android:name=".Ramsdale"
+            android:exported="false" />
+        <activity
+            android:name=".PlantillaArsenal"
+            android:exported="false" />
+        <activity
+            android:name=".Wolves"
+            android:exported="false" />
+        <activity
+            android:name=".WestHam"
+            android:exported="false" />
+        <activity
+            android:name=".Watford"
+            android:exported="false" />
+        <activity
+            android:name=".Spurs"
+            android:exported="false" />
+        <activity
+            android:name=".Southampton"
+            android:exported="false" />
+        <activity
+            android:name=".Norwich"
+            android:exported="false" />
+        <activity
+            android:name=".Newcastle"
+            android:exported="false" />
+        <activity
+            android:name=".ManchesterUnited"
+            android:exported="false" />
+        <activity
+            android:name=".ManchesterCity"
+            android:exported="false" />
+        <activity
+            android:name=".Liverpool"
+            android:exported="false" />
+        <activity
+            android:name=".Leicester"
+            android:exported="false" />
+        <activity
+            android:name=".Leeds"
+            android:exported="false" />
+        <activity
+            android:name=".Everton"
+            android:exported="false" />
+        <activity
+            android:name=".CrystalPalace"
+            android:exported="false" />
+        <activity
+            android:name=".Chelsea"
+            android:exported="false" />
+        <activity
+            android:name=".Burnley"
+            android:exported="false" />
+        <activity
+            android:name=".Brighton"
+            android:exported="false" />
+        <activity
+            android:name=".Brentford"
+            android:exported="false" />
+        <activity
+            android:name=".AstonVilla"
+            android:exported="false" />
+        <activity
+            android:name=".Arsenal"
+            android:exported="false" />
+        <activity
+            android:name=".Menu4"
+            android:exported="false" />
+        <activity
+            android:name=".Menu3"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2"
+            android:exported="false" />
+        <activity
+            android:name=".Menu1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

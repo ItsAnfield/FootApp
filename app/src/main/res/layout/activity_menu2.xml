@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35C648"
+    tools:context=".Menu2">
+
+    <Button
+        android:id="@+id/btnChelsea"
+        android:layout_width="120dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="151dp"
+        android:backgroundTint="#394BDF"
+        android:text="Chelsea"
+        android:textColor="#FAF7F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPalace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#394BDF"
+        android:text="Crystal Palace"
+        android:textColor="#F12A2A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChelsea" />
+
+    <Button
+        android:id="@+id/btnEverton"
+        android:layout_width="137dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#132BED"
+        android:text="Everton"
+        android:textColor="#FAF7F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPalace" />
+
+    <Button
+        android:id="@+id/btnLeeds"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#DBDCE4"
+        android:text="Leeds United"
+        android:textColor="#FAF7F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEverton" />
+
+    <Button
+        android:id="@+id/btnLeicester"
+        android:layout_width="176dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#132BF1"
+        android:text="Leicester City"
+        android:textColor="#FAF7F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeeds" />
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="143dp"
+        android:text="Siguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeicester" />
+
+    <TextView
+        android:id="@+id/menu2textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="20dp"
+        android:text="Menu 2"
+        app:layout_constraintBottom_toTopOf="@+id/btnChelsea"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

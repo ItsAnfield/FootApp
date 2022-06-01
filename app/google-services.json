@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924713809810",
+    "project_id": "futapp-f70b2",
+    "storage_bucket": "futapp-f70b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924713809810:android:16be0fbbd1710b7309b34b",
+        "android_client_info": {
+          "package_name": "com.example.footapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924713809810-940g612786tod4irvqkikcfsjbmv13bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJh9ms5kGn6N4Em7iosaUsRlx_e-oLseg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924713809810-940g612786tod4irvqkikcfsjbmv13bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
